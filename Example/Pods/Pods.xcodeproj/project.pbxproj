@@ -1,0 +1,2054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AAA4117AFF3CCB6F64122DC670746588 /* GofKitLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 353AE8735F7E89A017ADEBFE4814BA10 /* Build configuration list for PBXAggregateTarget "GofKitLib" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F65F3417389D893DCCF770F08BBABF3C /* PBXTargetDependency */,
+			);
+			name = GofKitLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		046499A3A73B36024321328378EA2141 /* GofMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B54CED1AE135171C89FDB97C551F13F /* GofMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046E9228FF285C16396B76847B6A9FD6 /* GofAModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A94DB46A1F1E51429F1F663F9587FD /* GofAModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B751F8C00A49388A788759247D49313 /* GofBModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BBFEB61F40B44BB94D761BE687EA07 /* GofBModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E68F3B566DD7CC408FDA3DAA9E9F4F6 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEB37DAFEFDDA6DBE5A925CD7977FF7 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1565BCF0BF7F00A132089A733821E027 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5BE9D2FAE1824B4649A13DA3A6F2FF /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8C9010C148F3B9F7F65C2ACDCBBB8A /* Pods-GofMediatorOCDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A39360DE1F3AB181BCDD2F4F0ED0388 /* Pods-GofMediatorOCDemo_Tests-dummy.m */; };
+		20ED921545DC5CB818F141458FA4C5E2 /* GofTargetB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CC8DD47686B8000076DD1C43A2620 /* GofTargetB.swift */; };
+		238D7C3554CEEEECDF3823098F5FBD2E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E91EC5E7313589DDE56B7A7C53C227D /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2601AC091262BDE14A20CABB10AF6805 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C18AEB968D80C6E8E20A627E8E4C1A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8F7A0D5413D16666A144ACF5290170 /* GofMediator+GofBModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F02E67C60B53F993856468523FFDB13 /* GofMediator+GofBModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0FF289A5BD9489933C37F51C56F482 /* Pods-GofMediatorOCDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2FFEFDD3744FA41397F76A479A2B67 /* Pods-GofMediatorOCDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D95F3DCAA7438C9F5424D0F56AF31DD /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B2222BB0AA6D448DA6E3BC13D92425B3 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7F9B3189708B62EA40C05D22C89856 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4F5B8F8BA9233218E9052FC4A28767 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3007E678248A9F23EEAC916A109EE5F9 /* Pods-GofMediatorOCDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D06EAEC184B7E14B5780F167052545 /* Pods-GofMediatorOCDemo_Example-dummy.m */; };
+		33DD4B02314E27F2273D6386A53CB5BF /* GofMediatorCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F346B11AA230A4CE6A7C5C24F02D26D /* GofMediatorCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3408149AE3161E82342D00D156EE5F10 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7121F716256C64B6B0F03F632CD7F854 /* Masonry-dummy.m */; };
+		342A42436AF31061CE3041A868EA488E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B5008494F2C0DC04E5EFD405A9FFE91E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36ABD683CEF4E246467B2F8009298DCC /* GofAModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E137BE1429ED94F1A310BD799F76079 /* GofAModule-dummy.m */; };
+		39DB43CE53FC86106FEBEC8BE1579E18 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5FBDE5DB1BD5CA3230BE0EA0E7A1D /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		455C0C6EF807B69E780D3940613E11AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		4A0661052D6C6FB8DE11FF40A102C6A5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6CABC8850131BDA4D2E10C60267A3 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4F291FF44AE3A5D86EE64CBD30FC518C /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E63003B471C71EFCEA5621C471929F0F /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		557106B19548C8FB0FAA1278221FBAA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		58F231B92F772419BE211860DA46E49C /* GofMediatorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DDB72C77CEC3D7FDCA5FE04E4C0A70 /* GofMediatorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6826F1A0B6F3F2DC5ED13AF126EE97 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 973E02CDE3E08DEE8271DC4A06893C30 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E937FA75166E27BF149A0CE6D8C1BCB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AC7B65ECC0161CC1F0A511859390D8 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F8404DAEEAC0EE732C8EC45DD2D2906 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15EDE3775205A847C653DAEF61E697 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5FC036FE69007DD6C891BAF37E3A9BFF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F78EC5CEA7D9735164B02A15082792 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6154CBB12E88278FFDC8DB81EE53E317 /* GofMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 623306B485540191C52B6022375318AC /* GofMediator-dummy.m */; };
+		634036D51F0B23AC5731300360C813B2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4426575345AE4A9A0BDB0D7D49BBB3D5 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667D112E7182858E69D9B1152FD8F8E7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9747DF44A4E244DDFA4D6DC5DFCF6343 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		66AD5CF0F0DD37CC557E48A4337904C7 /* GofMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BF49C46CC103A23131F24D3DF818E /* GofMediator.framework */; };
+		6713487E5CA09A8E2D5019ACDEAF80DF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 68937D8E916B7EBA85CE7399AD91B95C /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C66233ACEC7CF2A498304C4AAB2D5FF /* GofMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA53AD96B213114FCA7501A453A0FE1D /* GofMediator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6CE7EE756A0E5F166E2587EFB16C5848 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C544819289ED74B51F86B8622FFA953 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F089373DDC0B260340EC380C8C6EFD2 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B28FAD38BE120065274533D8A5936 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727E5D465A84A4ADB538CF52FE115D1E /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D920F57B32AE79E3351C9AEBE0FF1D57 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78130999DA86C3CA0FFDB7EAE577992C /* GofBModuleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154A44CC6E42E67E56407D7CDBB8AD1 /* GofBModuleExtension.swift */; };
+		7BF3DF22687DEA8A1EB3E02A34489265 /* GofMediatorExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5168FE274EF60C3ABEA0748E4AF88 /* GofMediatorExtension-dummy.m */; };
+		7FBE33AC849238768FBCBCDD489A7CFF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E89F22C9158FCD16390B98DDFE3FDA /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811CE0316F3C9119ABC534047AC370F1 /* GofAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E160FEB3724AE495DC30DD17B63C555 /* GofAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BFD42541B7CED16D5D25572898176D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		860AFBCD85CB16BFD10687A4B2E3E6A3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F99F2182FA900122513E031BEE2021BB /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C092B33A82A7A790342905611F92375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		90E06A92D5AC70D7825688C87C61C435 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BC642F4098FFD7E112BAD1406683D5 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95393677930D935215F3C19A3421DCC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C79EC6028EF799A342663B99365A9A /* UIKit.framework */; };
+		97094BC35ADD085C214208245A017AA9 /* GofMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BF49C46CC103A23131F24D3DF818E /* GofMediator.framework */; };
+		97F008615CBB52519C2D6F6CB7170229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		9C734F991F8E156A10303A931E9B33ED /* GofBModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175FE0CBCF598F1E9C2D63AAF7F4B391 /* GofBModule-dummy.m */; };
+		A0A9D53ADB4CEA0E6FCE8249EA920D58 /* GofBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558135A263C58AAE1213F5399C98FE3 /* GofBViewController.swift */; };
+		A3435CE24A33988C7A35099DFD7FD31A /* Pods-GofMediatorOCDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C761407B3506F1C63813CB29B0968A74 /* Pods-GofMediatorOCDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5316C056E2FD86892F4B1FA4346ED2F /* GofMediator+AModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F6882FAF1D0ABB215650BA7573FE8 /* GofMediator+AModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A543DC187647E0FB157CAA40D10607B6 /* GofMediator+AModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 046DAF29131BD2E703C8EE50978B0430 /* GofMediator+AModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B2C5EEFDA5CB1A1DF94F6A15B2E692 /* GofMediator+GofBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E5969B6834999D3164CB04016025D41A /* GofMediator+GofBModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B024C1A3DB2264C61C01684D46E6089F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		B08E74E12D5F2F18F8739740537AEA74 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D10A9D77EAC5573253509E11DFA80234 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C7D32FF5A4E5ADE2F50DA8F5ADD098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		B7E7B8001DE7CDD4357816642D8B01E0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BD9BCF2360B8CB20C9946A8A604A52 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF33043D9F09F865DE4F7B59F82D6385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */; };
+		C44CC5FCD0FD3F7440A5322B2AEC1FB1 /* GofMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49204762017023A33BD8F0678A906547 /* GofMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67AC5AC0557DE30A8D9385548478761 /* GofTargetA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28D2496D536128A2484F34320E26A7 /* GofTargetA.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB3F718F6F9C95AAE03EB7934DB75FB8 /* GofMediatorCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F072B74AA09868F548F95633F102F738 /* GofMediatorCategory-dummy.m */; };
+		E9EAD99114DBD11F4B1609E7F0BB3B17 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AF45FCBB3E1646BADF6C9B1F6D981A3B /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C555CA451CEDCF034B734614CE3FDD /* GofAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB591AECF570924BC268527B57071470 /* GofAViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FBDE79D244AE7F13FF9E3EC5B5A450A3 /* GofTargetA.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AF28C2785B4D1838B3086692F849B1 /* GofTargetA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2AB7A4515ED3D3EEC3CC5A4815EA65 /* GofAModuleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98795A5ECA56DED36FB314298101465 /* GofAModuleExtention.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD9ABBF18AA99EE53058663B06CC445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		3C5D550E556BE6035A3453D96873AC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA4117AFF3CCB6F64122DC670746588;
+			remoteInfo = GofKitLib;
+		};
+		477F550BC9E6C3F709F199A2D7479DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC226E094EB243991256BC0A9FE6AA93;
+			remoteInfo = GofMediatorCategory;
+		};
+		7CC01E66659227970DD35DE689EA102B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B6E95994F207D28B969EB3FDEF3BB0;
+			remoteInfo = GofAModule;
+		};
+		822EC3712AA7D092076F0801882A24EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		C3D3A666036186A140EEE556BAC3F489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487733E2C7B9D9C434ABC2FFC3545B5E;
+			remoteInfo = GofMediator;
+		};
+		D015CEB98498DB512BDFCE15697A59DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68A79EB98E57090250FCDF0A2BA1EA7;
+			remoteInfo = GofMediatorExtension;
+		};
+		DE1027C28DBF1D74ADB96C2C83321ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487733E2C7B9D9C434ABC2FFC3545B5E;
+			remoteInfo = GofMediator;
+		};
+		E324E141E8BC1AA040BBC355CD3DE5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B89E406015C29D340BF5D6769DB8DC1;
+			remoteInfo = GofBModule;
+		};
+		F79E525666B15C47A3E028B6A3D781F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA4117AFF3CCB6F64122DC670746588;
+			remoteInfo = GofKitLib;
+		};
+		F8F1B98B94BCB9DB27A19508E9410298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487733E2C7B9D9C434ABC2FFC3545B5E;
+			remoteInfo = GofMediator;
+		};
+		FAE95E94DBD327744451AA562EF33623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887F67666F5D4B7886D5D4457AB66367;
+			remoteInfo = "Pods-GofMediatorOCDemo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0048F6F54D4D82E94A9474977DF62670 /* UIImage+GofColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GofColor.h"; path = "GofKit/UIImage+GofColor.h"; sourceTree = "<group>"; };
+		007478D22F103D47823C25F88B6FA3B0 /* GofMediatorExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GofMediatorExtension.modulemap; sourceTree = "<group>"; };
+		01A8CA7942E651E2D83E09088B131370 /* Pods-GofMediatorOCDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GofMediatorOCDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		046DAF29131BD2E703C8EE50978B0430 /* GofMediator+AModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GofMediator+AModule.h"; path = "GofMediatorCategory/GofMediator+AModule.h"; sourceTree = "<group>"; };
+		05AF28C2785B4D1838B3086692F849B1 /* GofTargetA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofTargetA.h; path = GofAModule/GofTargetA.h; sourceTree = "<group>"; };
+		05BD9BCF2360B8CB20C9946A8A604A52 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		05C79EC6028EF799A342663B99365A9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		05F4B500BE137EE70A444212A24B2323 /* Pods-GofMediatorOCDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GofMediatorOCDemo_Example.modulemap"; sourceTree = "<group>"; };
+		064EB0C80528D1795F9E054210BFFF27 /* GofBModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofBModule.debug.xcconfig; sourceTree = "<group>"; };
+		0AAACF284BFC461420F174C83227C9EF /* NSObject+GofRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofRuntime.h"; path = "GofKit/NSObject+GofRuntime.h"; sourceTree = "<group>"; };
+		0AD50D07F99468560F1BCA7735ABF8DE /* GofMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GofMediator.modulemap; sourceTree = "<group>"; };
+		0B13225C79124099ABA499D52AE6F5E1 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		0B54CED1AE135171C89FDB97C551F13F /* GofMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofMediator.h; path = GofMediator/GofMediator.h; sourceTree = "<group>"; };
+		0B7C3FE8A96655D11ABAC58A3F1516D4 /* GofAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofAlertController.h; path = GofKit/GofAlertController.h; sourceTree = "<group>"; };
+		0F2FFEFDD3744FA41397F76A479A2B67 /* Pods-GofMediatorOCDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GofMediatorOCDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10631F3D8ED529C66EEA61C704CF44EA /* GofMediatorCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GofMediatorCategory.modulemap; sourceTree = "<group>"; };
+		10C47AA34DAADB2B378F71C6B649E8B4 /* WKWebView+GofAccessoryHide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+GofAccessoryHide.h"; path = "GofKit/WKWebView+GofAccessoryHide.h"; sourceTree = "<group>"; };
+		13639C48DE86049AF8D4D63547062B72 /* NSString+GofString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GofString.h"; path = "GofKit/NSString+GofString.h"; sourceTree = "<group>"; };
+		14BEAC1B69F124F6590026CCE2C18796 /* Pods-GofMediatorOCDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GofMediatorOCDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		175FE0CBCF598F1E9C2D63AAF7F4B391 /* GofBModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GofBModule-dummy.m"; sourceTree = "<group>"; };
+		1837C413C7E3A97A466491CAA2B051C6 /* UITextView+GofTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+GofTextView.h"; path = "GofKit/UITextView+GofTextView.h"; sourceTree = "<group>"; };
+		18CEB6AF7B9983CF746425CD3A342A94 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		19904C6D279E7EFC9D677BA7D1B27B15 /* GofCountDownUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofCountDownUtils.h; path = GofKit/GofCountDownUtils.h; sourceTree = "<group>"; };
+		19C1969A432F43EAA00C3AD1FDBF367B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AB7675FD0A670D3AA449728497AFFB /* NSObject+GofTopVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofTopVC.h"; path = "GofKit/NSObject+GofTopVC.h"; sourceTree = "<group>"; };
+		26FB89287BC6438BB37BFD4E13BE5DAC /* UIImageView+GofImageViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+GofImageViewMaker.h"; path = "GofKit/UIImageView+GofImageViewMaker.h"; sourceTree = "<group>"; };
+		2775C985217195215F2F0BC988EBCEB1 /* UINavigationController+GofFixSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+GofFixSpace.h"; path = "GofKit/UINavigationController+GofFixSpace.h"; sourceTree = "<group>"; };
+		2A39360DE1F3AB181BCDD2F4F0ED0388 /* Pods-GofMediatorOCDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GofMediatorOCDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B9AAF6E5BECB6159D623A01DC0D3F76 /* GofAModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GofAModule-Info.plist"; sourceTree = "<group>"; };
+		2D63D010309A7FC52EBC3921F2B47029 /* Pods-GofMediatorOCDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GofMediatorOCDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB6CABC8850131BDA4D2E10C60267A3 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		33F365CEB097090061364BA61580C5D6 /* NSTimer+GofTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+GofTimer.h"; path = "GofKit/NSTimer+GofTimer.h"; sourceTree = "<group>"; };
+		3536113059A60D4ED55AE4D7989AF7F2 /* GofBModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GofBModule.framework; path = GofBModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374FDBFE4A22365E360A7403948283C7 /* NSTimer+GofWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+GofWeakTimer.h"; path = "GofKit/NSTimer+GofWeakTimer.h"; sourceTree = "<group>"; };
+		37BBFEB61F40B44BB94D761BE687EA07 /* GofBModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofBModule-umbrella.h"; sourceTree = "<group>"; };
+		37E89F22C9158FCD16390B98DDFE3FDA /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		393518D9190555D840550A431FAEA731 /* GofMediatorExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediatorExtension.release.xcconfig; sourceTree = "<group>"; };
+		3B28D2496D536128A2484F34320E26A7 /* GofTargetA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GofTargetA.m; path = GofAModule/GofTargetA.m; sourceTree = "<group>"; };
+		3B864B014F4CA1808BD214719405448B /* Pods-GofMediatorOCDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GofMediatorOCDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C3573B071607576C5BA07D025FAFBE7 /* GofBModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GofBModule-Info.plist"; sourceTree = "<group>"; };
+		3D5BE9D2FAE1824B4649A13DA3A6F2FF /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		3E160FEB3724AE495DC30DD17B63C555 /* GofAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofAViewController.h; path = GofAModule/GofAViewController.h; sourceTree = "<group>"; };
+		3EF8ED7C21DCA7853729046B99F412D1 /* NSDictionary+GofOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GofOperate.h"; path = "GofKit/NSDictionary+GofOperate.h"; sourceTree = "<group>"; };
+		40593572A3430279D4BCD25933600EDC /* GofMediatorExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediatorExtension-prefix.pch"; sourceTree = "<group>"; };
+		435FC2AD3B3C5049CC3559D94FE7E0C0 /* UIImage+GofCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GofCapture.h"; path = "GofKit/UIImage+GofCapture.h"; sourceTree = "<group>"; };
+		43FB96F7164508E43605836466A19B5D /* GofMediatorCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GofMediatorCategory-Info.plist"; sourceTree = "<group>"; };
+		4426575345AE4A9A0BDB0D7D49BBB3D5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		444CA1C2A1697DD913FA373E33F0C47C /* GofConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofConst.h; path = GofKit/GofConst.h; sourceTree = "<group>"; };
+		4566585C6A3A758820CAB6E83D976FB3 /* GofKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GofKit.framework; sourceTree = "<group>"; };
+		461745398CF8D6DEA220F7CB41F345E9 /* NSObject+GofDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofDevice.h"; path = "GofKit/NSObject+GofDevice.h"; sourceTree = "<group>"; };
+		475607F1BB4AAD67C5F83D828D933E00 /* NSArray+GofOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+GofOperate.h"; path = "GofKit/NSArray+GofOperate.h"; sourceTree = "<group>"; };
+		47F05634C8A509E6B8E7506E5608BF42 /* UIControl+GofControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+GofControl.h"; path = "GofKit/UIControl+GofControl.h"; sourceTree = "<group>"; };
+		489B5B810AD84FA4EB5A2262E41D0D3C /* GofMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GofMediator-Info.plist"; sourceTree = "<group>"; };
+		49204762017023A33BD8F0678A906547 /* GofMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediator-umbrella.h"; sourceTree = "<group>"; };
+		4AE58ED2F3423C3AAC53D8A617AFAD9C /* UIColor+GofColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GofColor.h"; path = "GofKit/UIColor+GofColor.h"; sourceTree = "<group>"; };
+		4F7EDE1E3551058EC82F8AA5CBEDE142 /* GofMediatorCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediatorCategory.release.xcconfig; sourceTree = "<group>"; };
+		5154A44CC6E42E67E56407D7CDBB8AD1 /* GofBModuleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GofBModuleExtension.swift; path = GofMediatorExtension/GofBModuleExtension.swift; sourceTree = "<group>"; };
+		51C18AEB968D80C6E8E20A627E8E4C1A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5269A973DEBDC8204D52B7E9B2B83CB7 /* Pods_GofMediatorOCDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GofMediatorOCDemo_Tests.framework; path = "Pods-GofMediatorOCDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53324229CB0CDF6562C9B17173CC6417 /* UIView+GofViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GofViewMaker.h"; path = "GofKit/UIView+GofViewMaker.h"; sourceTree = "<group>"; };
+		5393538C5B4F656D3912F5EB966173A4 /* Pods-GofMediatorOCDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GofMediatorOCDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D06EAEC184B7E14B5780F167052545 /* Pods-GofMediatorOCDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GofMediatorOCDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		5A438C56468727803C1AB51A5A1F9103 /* NSString+GofEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GofEncrypt.h"; path = "GofKit/NSString+GofEncrypt.h"; sourceTree = "<group>"; };
+		5C51DA98BC64DB28FE7BA4F1E83D42FF /* GofMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediator-prefix.pch"; sourceTree = "<group>"; };
+		5C544819289ED74B51F86B8622FFA953 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		5EB5FBDE5DB1BD5CA3230BE0EA0E7A1D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		623306B485540191C52B6022375318AC /* GofMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GofMediator-dummy.m"; sourceTree = "<group>"; };
+		63334C5951A6CF17DFA2FBC22B2A9D15 /* UIActionSheet+GofActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+GofActionSheet.h"; path = "GofKit/UIActionSheet+GofActionSheet.h"; sourceTree = "<group>"; };
+		63BAB61A531EA5DA80E445ED10BBAB89 /* GofMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GofMediator.framework; path = GofMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6468F91EBE576B3644BEB8B08824900B /* GofAModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofAModule-prefix.pch"; sourceTree = "<group>"; };
+		64A285B74B3A27DB9B07E54B4BFF0BEF /* NSMutableAttributedString+GofAttributeString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+GofAttributeString.h"; path = "GofKit/NSMutableAttributedString+GofAttributeString.h"; sourceTree = "<group>"; };
+		64C3B7BA79CEE8ACCCD3622B06379304 /* Pods-GofMediatorOCDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GofMediatorOCDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65B4E66B0B7901A27D5EE1018EE95AC8 /* UIView+GofView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GofView.h"; path = "GofKit/UIView+GofView.h"; sourceTree = "<group>"; };
+		65CCD58B82EB4AF0D0A831C3FCEEC7FF /* UIGestureRecognizer+GofGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+GofGesture.h"; path = "GofKit/UIGestureRecognizer+GofGesture.h"; sourceTree = "<group>"; };
+		66B829D804EAA395E3AD8F0DB7BAD5F9 /* UITextView+GofTextViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+GofTextViewMaker.h"; path = "GofKit/UITextView+GofTextViewMaker.h"; sourceTree = "<group>"; };
+		679B379D55115D13871F2405F8071E90 /* UITextField+GofTextFieldMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+GofTextFieldMaker.h"; path = "GofKit/UITextField+GofTextFieldMaker.h"; sourceTree = "<group>"; };
+		68937D8E916B7EBA85CE7399AD91B95C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		69AC7B65ECC0161CC1F0A511859390D8 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		69ECB3057B68927E26C885679B8A498C /* Pods-GofMediatorOCDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GofMediatorOCDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B4E5AFC1A7D25DB3A1E3C4BA967C51C /* GofAModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofAModule.debug.xcconfig; sourceTree = "<group>"; };
+		6C03BC15D3BBC71276C46BE39EBE8E29 /* GofMediatorExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GofMediatorExtension-Info.plist"; sourceTree = "<group>"; };
+		6D4F5B8F8BA9233218E9052FC4A28767 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6E91EC5E7313589DDE56B7A7C53C227D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6F02E67C60B53F993856468523FFDB13 /* GofMediator+GofBModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GofMediator+GofBModule.h"; path = "GofMediatorCategory/GofMediator+GofBModule.h"; sourceTree = "<group>"; };
+		6F346B11AA230A4CE6A7C5C24F02D26D /* GofMediatorCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediatorCategory-umbrella.h"; sourceTree = "<group>"; };
+		7121F716256C64B6B0F03F632CD7F854 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		7558135A263C58AAE1213F5399C98FE3 /* GofBViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GofBViewController.swift; path = GofBModule/GofBViewController.swift; sourceTree = "<group>"; };
+		75D5168FE274EF60C3ABEA0748E4AF88 /* GofMediatorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GofMediatorExtension-dummy.m"; sourceTree = "<group>"; };
+		76BE81F217F67E4B6072D2B9C3010775 /* UIButton+GofButtonMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+GofButtonMaker.h"; path = "GofKit/UIButton+GofButtonMaker.h"; sourceTree = "<group>"; };
+		7702707936A4C9C9C67EDE1736859E03 /* GofBModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofBModule.release.xcconfig; sourceTree = "<group>"; };
+		78DDB72C77CEC3D7FDCA5FE04E4C0A70 /* GofMediatorExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediatorExtension-umbrella.h"; sourceTree = "<group>"; };
+		7B81E8467C03EE9C8F482C9FACEA3838 /* NSData+GofEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GofEncrypt.h"; path = "GofKit/NSData+GofEncrypt.h"; sourceTree = "<group>"; };
+		7CF559E932B5B7A799DF9FAB81E51F9E /* GofBModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GofBModule.modulemap; sourceTree = "<group>"; };
+		7E2B28FAD38BE120065274533D8A5936 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		7FF414A747551657124716DE4D460DDC /* UILabel+GofAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+GofAttributed.h"; path = "GofKit/UILabel+GofAttributed.h"; sourceTree = "<group>"; };
+		80A94DB46A1F1E51429F1F663F9587FD /* GofAModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofAModule-umbrella.h"; sourceTree = "<group>"; };
+		83D2F760D37601460A4AF9FF1430E341 /* GofMediatorExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediatorExtension.debug.xcconfig; sourceTree = "<group>"; };
+		863F7AD761FC1ADBBA9934B3D2B0F32E /* GofMediatorCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofMediatorCategory-prefix.pch"; sourceTree = "<group>"; };
+		884F6882FAF1D0ABB215650BA7573FE8 /* GofMediator+AModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GofMediator+AModule.m"; path = "GofMediatorCategory/GofMediator+AModule.m"; sourceTree = "<group>"; };
+		8E137BE1429ED94F1A310BD799F76079 /* GofAModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GofAModule-dummy.m"; sourceTree = "<group>"; };
+		8E15EDE3775205A847C653DAEF61E697 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		8E4C9E0F73A5925F0987473FCC07F37F /* GofAModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofAModule.release.xcconfig; sourceTree = "<group>"; };
+		8F4D0C1D73EA221B644790CC1312B167 /* UIAlertView+GofAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+GofAlertView.h"; path = "GofKit/UIAlertView+GofAlertView.h"; sourceTree = "<group>"; };
+		94A7509F36EC3E13BCFDC69B0214CA52 /* UILabel+GofLabelMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+GofLabelMaker.h"; path = "GofKit/UILabel+GofLabelMaker.h"; sourceTree = "<group>"; };
+		94F78EC5CEA7D9735164B02A15082792 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		973E02CDE3E08DEE8271DC4A06893C30 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9747DF44A4E244DDFA4D6DC5DFCF6343 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D6A1DA9A61A68987B445E615809BFD9 /* NSArray+GofSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+GofSafe.h"; path = "GofKit/NSArray+GofSafe.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF3E2123F5E309360EBE0DA89FED27F /* GofMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediator.debug.xcconfig; sourceTree = "<group>"; };
+		A0BEBD327A31C7D6B5F1E38DD1053797 /* UIImage+GofCompress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GofCompress.h"; path = "GofKit/UIImage+GofCompress.h"; sourceTree = "<group>"; };
+		A20CC8DD47686B8000076DD1C43A2620 /* GofTargetB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GofTargetB.swift; path = GofBModule/GofTargetB.swift; sourceTree = "<group>"; };
+		A4BC642F4098FFD7E112BAD1406683D5 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A5642556FF8E524EE60B47759416DFE7 /* GofKitLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofKitLib.debug.xcconfig; sourceTree = "<group>"; };
+		A702532BDD44C934F2DA05F1D0426CD5 /* NSDate+GofDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+GofDate.h"; path = "GofKit/NSDate+GofDate.h"; sourceTree = "<group>"; };
+		A7EAC6DEF0A657200704131ABE12CC5C /* Pods-GofMediatorOCDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GofMediatorOCDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A855B028A77C235C2323052A5E730D09 /* NSObject+GofObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofObject.h"; path = "GofKit/NSObject+GofObject.h"; sourceTree = "<group>"; };
+		AB1847D53D1734BA338927ED7324E641 /* GofBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofBlock.h; path = GofKit/GofBlock.h; sourceTree = "<group>"; };
+		AB591AECF570924BC268527B57071470 /* GofAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GofAViewController.m; path = GofAModule/GofAViewController.m; sourceTree = "<group>"; };
+		ABACDE7D05AA1222E45360959DC36B18 /* NSString+GofTrim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GofTrim.h"; path = "GofKit/NSString+GofTrim.h"; sourceTree = "<group>"; };
+		AF45FCBB3E1646BADF6C9B1F6D981A3B /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B216332692C1B7ECFFF3531942B6E0D4 /* GofAModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GofAModule.framework; path = GofAModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2222BB0AA6D448DA6E3BC13D92425B3 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		B223CC545CB28EF358401D7E4150E80F /* GofAModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GofAModule.modulemap; sourceTree = "<group>"; };
+		B5008494F2C0DC04E5EFD405A9FFE91E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		B8250B56708B29780EB50FBBD36A47A5 /* NSDictionary+GofSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GofSafe.h"; path = "GofKit/NSDictionary+GofSafe.h"; sourceTree = "<group>"; };
+		B8C33A7615055CF693815D7079FC9984 /* Pods-GofMediatorOCDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GofMediatorOCDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B975DFAEC7FADF007B30CB9767B334CF /* GofMediatorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GofMediatorExtension.framework; path = GofMediatorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA53AD96B213114FCA7501A453A0FE1D /* GofMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GofMediator.m; path = GofMediator/GofMediator.m; sourceTree = "<group>"; };
+		BB5BF49C46CC103A23131F24D3DF818E /* GofMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GofMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE536F0969EB13D3654407D0F81DE05 /* NSFileManager+GofFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+GofFileManager.h"; path = "GofKit/NSFileManager+GofFileManager.h"; sourceTree = "<group>"; };
+		BBEB37DAFEFDDA6DBE5A925CD7977FF7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C0E36B9FFD5C88DB4E994C0932BFA775 /* UIBarButtonItem+GofBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+GofBarButton.h"; path = "GofKit/UIBarButtonItem+GofBarButton.h"; sourceTree = "<group>"; };
+		C1DEABB53001C05FD3ED48D2D92B8C7A /* NSObject+GofSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofSize.h"; path = "GofKit/NSObject+GofSize.h"; sourceTree = "<group>"; };
+		C253AEFF757F9C4EB27891D2AD90FB77 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		C761407B3506F1C63813CB29B0968A74 /* Pods-GofMediatorOCDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GofMediatorOCDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA5B7278102C2EB3359B6F922C3860C3 /* Pods-GofMediatorOCDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GofMediatorOCDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		CBEAF78D12DBCF5B835B8AFEF8F6E45E /* NSString+GofVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GofVerify.h"; path = "GofKit/NSString+GofVerify.h"; sourceTree = "<group>"; };
+		D10A9D77EAC5573253509E11DFA80234 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D473131F449F238C4C8342C0F13A8C41 /* GofKitLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofKitLib.release.xcconfig; sourceTree = "<group>"; };
+		D75F7473960538FE2ABAC3D5FFB1DA45 /* Pods-GofMediatorOCDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GofMediatorOCDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8DAC6FCBE37886B3CC59E97A784B5E8 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		D920F57B32AE79E3351C9AEBE0FF1D57 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		DFB0BC6029D2663C29B958B6E86F2389 /* GofMediatorCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GofMediatorCategory.framework; path = GofMediatorCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E446CC4803F10764182AA7F285DF41D2 /* UITableView+GofTableViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+GofTableViewMaker.h"; path = "GofKit/UITableView+GofTableViewMaker.h"; sourceTree = "<group>"; };
+		E4545869DA93C27661D6CA3E78DF9C80 /* GofAlertRotationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofAlertRotationController.h; path = GofKit/GofAlertRotationController.h; sourceTree = "<group>"; };
+		E47B188B2681DF44A175FFA55932DEED /* NSUserDefaults+GofUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+GofUserDefaults.h"; path = "GofKit/NSUserDefaults+GofUserDefaults.h"; sourceTree = "<group>"; };
+		E5969B6834999D3164CB04016025D41A /* GofMediator+GofBModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GofMediator+GofBModule.m"; path = "GofMediatorCategory/GofMediator+GofBModule.m"; sourceTree = "<group>"; };
+		E63003B471C71EFCEA5621C471929F0F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E98795A5ECA56DED36FB314298101465 /* GofAModuleExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GofAModuleExtention.swift; path = GofMediatorExtension/GofAModuleExtention.swift; sourceTree = "<group>"; };
+		ED3075152A279B2B1CE41AD7C2EA2006 /* NSData+GofCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GofCache.h"; path = "GofKit/NSData+GofCache.h"; sourceTree = "<group>"; };
+		EE4A43416F416AA2AE99CC6369D1F738 /* Pods_GofMediatorOCDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GofMediatorOCDemo_Example.framework; path = "Pods-GofMediatorOCDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE80C8AACC9CAE316B555A7DB9F95954 /* Pods-GofMediatorOCDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GofMediatorOCDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0494A2C962ABBF8951EC040C18A64EC /* GofMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediator.release.xcconfig; sourceTree = "<group>"; };
+		F072B74AA09868F548F95633F102F738 /* GofMediatorCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GofMediatorCategory-dummy.m"; sourceTree = "<group>"; };
+		F13574B976964E2F2E77E30BE56CA3DE /* NSObject+GofGCD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GofGCD.h"; path = "GofKit/NSObject+GofGCD.h"; sourceTree = "<group>"; };
+		F297F25AA1855B95278F457B3F5E0A2B /* GofVerticalLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GofVerticalLabel.h; path = GofKit/GofVerticalLabel.h; sourceTree = "<group>"; };
+		F53DF2BB8E0DABB950D11DFE703D96E1 /* GofMediatorCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GofMediatorCategory.debug.xcconfig; sourceTree = "<group>"; };
+		F99F2182FA900122513E031BEE2021BB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FD333045A7797DD7E8D4A3E0C64F6E89 /* GofBModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GofBModule-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063DB42897ED0B3DA937FF4717A31EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557106B19548C8FB0FAA1278221FBAA2 /* Foundation.framework in Frameworks */,
+				97094BC35ADD085C214208245A017AA9 /* GofMediator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FC03B88CEF026F45266B16B1BB93D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C092B33A82A7A790342905611F92375 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DD310F855F3E96A4E890B2F4E76EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BFD42541B7CED16D5D25572898176D /* Foundation.framework in Frameworks */,
+				66AD5CF0F0DD37CC557E48A4337904C7 /* GofMediator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4716FCA656BA2EB7B801120623F9A8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33043D9F09F865DE4F7B59F82D6385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E7F410314E83EB2AF2A8875F59961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455C0C6EF807B69E780D3940613E11AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB33CC3FDC89FCDA86E5C92D96BADC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024C1A3DB2264C61C01684D46E6089F /* Foundation.framework in Frameworks */,
+				95393677930D935215F3C19A3421DCC8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE4875B7A2FFF0A5F0B56A0C3C855C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F008615CBB52519C2D6F6CB7170229 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C2BF2E694022329A95F2D594CFB913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C7D32FF5A4E5ADE2F50DA8F5ADD098 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F417D20A9BF4BAC7035B8219ECA8891 /* GofAModule */ = {
+			isa = PBXGroup;
+			children = (
+				3E160FEB3724AE495DC30DD17B63C555 /* GofAViewController.h */,
+				AB591AECF570924BC268527B57071470 /* GofAViewController.m */,
+				05AF28C2785B4D1838B3086692F849B1 /* GofTargetA.h */,
+				3B28D2496D536128A2484F34320E26A7 /* GofTargetA.m */,
+				594D14D5CC74AF398CEA88CF21835433 /* Support Files */,
+			);
+			name = GofAModule;
+			path = GofAModule;
+			sourceTree = "<group>";
+		};
+		1FAA7A537192CBD7CDAE7867D698A96D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5642556FF8E524EE60B47759416DFE7 /* GofKitLib.debug.xcconfig */,
+				D473131F449F238C4C8342C0F13A8C41 /* GofKitLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofKitLib";
+			sourceTree = "<group>";
+		};
+		36E5C1603629099C263019D3A23EDBEC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E63003B471C71EFCEA5621C471929F0F /* MASCompositeConstraint.h */,
+				69AC7B65ECC0161CC1F0A511859390D8 /* MASCompositeConstraint.m */,
+				B2222BB0AA6D448DA6E3BC13D92425B3 /* MASConstraint.h */,
+				9747DF44A4E244DDFA4D6DC5DFCF6343 /* MASConstraint.m */,
+				973E02CDE3E08DEE8271DC4A06893C30 /* MASConstraint+Private.h */,
+				4426575345AE4A9A0BDB0D7D49BBB3D5 /* MASConstraintMaker.h */,
+				2DB6CABC8850131BDA4D2E10C60267A3 /* MASConstraintMaker.m */,
+				B5008494F2C0DC04E5EFD405A9FFE91E /* MASLayoutConstraint.h */,
+				68937D8E916B7EBA85CE7399AD91B95C /* MASLayoutConstraint.m */,
+				37E89F22C9158FCD16390B98DDFE3FDA /* Masonry.h */,
+				3D5BE9D2FAE1824B4649A13DA3A6F2FF /* MASUtilities.h */,
+				A4BC642F4098FFD7E112BAD1406683D5 /* MASViewAttribute.h */,
+				05BD9BCF2360B8CB20C9946A8A604A52 /* MASViewAttribute.m */,
+				AF45FCBB3E1646BADF6C9B1F6D981A3B /* MASViewConstraint.h */,
+				5C544819289ED74B51F86B8622FFA953 /* MASViewConstraint.m */,
+				6D4F5B8F8BA9233218E9052FC4A28767 /* NSArray+MASAdditions.h */,
+				6E91EC5E7313589DDE56B7A7C53C227D /* NSArray+MASAdditions.m */,
+				51C18AEB968D80C6E8E20A627E8E4C1A /* NSArray+MASShorthandAdditions.h */,
+				D10A9D77EAC5573253509E11DFA80234 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				94F78EC5CEA7D9735164B02A15082792 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D920F57B32AE79E3351C9AEBE0FF1D57 /* View+MASAdditions.h */,
+				8E15EDE3775205A847C653DAEF61E697 /* View+MASAdditions.m */,
+				F99F2182FA900122513E031BEE2021BB /* View+MASShorthandAdditions.h */,
+				BBEB37DAFEFDDA6DBE5A925CD7977FF7 /* ViewController+MASAdditions.h */,
+				5EB5FBDE5DB1BD5CA3230BE0EA0E7A1D /* ViewController+MASAdditions.m */,
+				A171C534F82F1488C8DC844ED857A0E0 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		4B129AE24F5BA6AE279BE421C45BB707 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10631F3D8ED529C66EEA61C704CF44EA /* GofMediatorCategory.modulemap */,
+				F072B74AA09868F548F95633F102F738 /* GofMediatorCategory-dummy.m */,
+				43FB96F7164508E43605836466A19B5D /* GofMediatorCategory-Info.plist */,
+				863F7AD761FC1ADBBA9934B3D2B0F32E /* GofMediatorCategory-prefix.pch */,
+				6F346B11AA230A4CE6A7C5C24F02D26D /* GofMediatorCategory-umbrella.h */,
+				F53DF2BB8E0DABB950D11DFE703D96E1 /* GofMediatorCategory.debug.xcconfig */,
+				4F7EDE1E3551058EC82F8AA5CBEDE142 /* GofMediatorCategory.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofMediatorCategory";
+			sourceTree = "<group>";
+		};
+		502D6F6BAE3936F8D4EE4A7FB2BD5D01 /* Pods-GofMediatorOCDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				05F4B500BE137EE70A444212A24B2323 /* Pods-GofMediatorOCDemo_Example.modulemap */,
+				2D63D010309A7FC52EBC3921F2B47029 /* Pods-GofMediatorOCDemo_Example-acknowledgements.markdown */,
+				B8C33A7615055CF693815D7079FC9984 /* Pods-GofMediatorOCDemo_Example-acknowledgements.plist */,
+				56D06EAEC184B7E14B5780F167052545 /* Pods-GofMediatorOCDemo_Example-dummy.m */,
+				EE80C8AACC9CAE316B555A7DB9F95954 /* Pods-GofMediatorOCDemo_Example-frameworks.sh */,
+				01A8CA7942E651E2D83E09088B131370 /* Pods-GofMediatorOCDemo_Example-Info.plist */,
+				C761407B3506F1C63813CB29B0968A74 /* Pods-GofMediatorOCDemo_Example-umbrella.h */,
+				A7EAC6DEF0A657200704131ABE12CC5C /* Pods-GofMediatorOCDemo_Example.debug.xcconfig */,
+				3B864B014F4CA1808BD214719405448B /* Pods-GofMediatorOCDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-GofMediatorOCDemo_Example";
+			path = "Target Support Files/Pods-GofMediatorOCDemo_Example";
+			sourceTree = "<group>";
+		};
+		58E52B27C97CDCB980757D1D2CFD7579 /* Pods-GofMediatorOCDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14BEAC1B69F124F6590026CCE2C18796 /* Pods-GofMediatorOCDemo_Tests.modulemap */,
+				64C3B7BA79CEE8ACCCD3622B06379304 /* Pods-GofMediatorOCDemo_Tests-acknowledgements.markdown */,
+				D75F7473960538FE2ABAC3D5FFB1DA45 /* Pods-GofMediatorOCDemo_Tests-acknowledgements.plist */,
+				2A39360DE1F3AB181BCDD2F4F0ED0388 /* Pods-GofMediatorOCDemo_Tests-dummy.m */,
+				CA5B7278102C2EB3359B6F922C3860C3 /* Pods-GofMediatorOCDemo_Tests-Info.plist */,
+				0F2FFEFDD3744FA41397F76A479A2B67 /* Pods-GofMediatorOCDemo_Tests-umbrella.h */,
+				5393538C5B4F656D3912F5EB966173A4 /* Pods-GofMediatorOCDemo_Tests.debug.xcconfig */,
+				69ECB3057B68927E26C885679B8A498C /* Pods-GofMediatorOCDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-GofMediatorOCDemo_Tests";
+			path = "Target Support Files/Pods-GofMediatorOCDemo_Tests";
+			sourceTree = "<group>";
+		};
+		594D14D5CC74AF398CEA88CF21835433 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B223CC545CB28EF358401D7E4150E80F /* GofAModule.modulemap */,
+				8E137BE1429ED94F1A310BD799F76079 /* GofAModule-dummy.m */,
+				2B9AAF6E5BECB6159D623A01DC0D3F76 /* GofAModule-Info.plist */,
+				6468F91EBE576B3644BEB8B08824900B /* GofAModule-prefix.pch */,
+				80A94DB46A1F1E51429F1F663F9587FD /* GofAModule-umbrella.h */,
+				6B4E5AFC1A7D25DB3A1E3C4BA967C51C /* GofAModule.debug.xcconfig */,
+				8E4C9E0F73A5925F0987473FCC07F37F /* GofAModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofAModule";
+			sourceTree = "<group>";
+		};
+		63A0C49992AD46E720C50DD659526C84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F417D20A9BF4BAC7035B8219ECA8891 /* GofAModule */,
+				967C7AA50ADE076BB75E629C664C0445 /* GofBModule */,
+				C48480A8B02C3129663A156D09633841 /* GofKitLib */,
+				EC394E9B8FB6AAB87175C3D06868E32A /* GofMediator */,
+				F120AB991425984C5250E1FAD4474B3B /* GofMediatorCategory */,
+				CC6E3092170E17B11AAED33542A5DF8D /* GofMediatorExtension */,
+				36E5C1603629099C263019D3A23EDBEC /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79707748EA41705CA31E38AC0AE6FDB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BF49C46CC103A23131F24D3DF818E /* GofMediator.framework */,
+				E1542D87641E778EB6AC15F37073E6F0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967C7AA50ADE076BB75E629C664C0445 /* GofBModule */ = {
+			isa = PBXGroup;
+			children = (
+				7558135A263C58AAE1213F5399C98FE3 /* GofBViewController.swift */,
+				A20CC8DD47686B8000076DD1C43A2620 /* GofTargetB.swift */,
+				B4EBA777D05F2882F5E3EDB3DF654E5B /* Support Files */,
+			);
+			name = GofBModule;
+			path = GofBModule;
+			sourceTree = "<group>";
+		};
+		986AC96E16243A375AF77F10C6E1A01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4566585C6A3A758820CAB6E83D976FB3 /* GofKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A171C534F82F1488C8DC844ED857A0E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C1969A432F43EAA00C3AD1FDBF367B /* Masonry.modulemap */,
+				7121F716256C64B6B0F03F632CD7F854 /* Masonry-dummy.m */,
+				0B13225C79124099ABA499D52AE6F5E1 /* Masonry-Info.plist */,
+				18CEB6AF7B9983CF746425CD3A342A94 /* Masonry-prefix.pch */,
+				7E2B28FAD38BE120065274533D8A5936 /* Masonry-umbrella.h */,
+				D8DAC6FCBE37886B3CC59E97A784B5E8 /* Masonry.debug.xcconfig */,
+				C253AEFF757F9C4EB27891D2AD90FB77 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		B4EBA777D05F2882F5E3EDB3DF654E5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF559E932B5B7A799DF9FAB81E51F9E /* GofBModule.modulemap */,
+				175FE0CBCF598F1E9C2D63AAF7F4B391 /* GofBModule-dummy.m */,
+				3C3573B071607576C5BA07D025FAFBE7 /* GofBModule-Info.plist */,
+				FD333045A7797DD7E8D4A3E0C64F6E89 /* GofBModule-prefix.pch */,
+				37BBFEB61F40B44BB94D761BE687EA07 /* GofBModule-umbrella.h */,
+				064EB0C80528D1795F9E054210BFFF27 /* GofBModule.debug.xcconfig */,
+				7702707936A4C9C9C67EDE1736859E03 /* GofBModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofBModule";
+			sourceTree = "<group>";
+		};
+		C48480A8B02C3129663A156D09633841 /* GofKitLib */ = {
+			isa = PBXGroup;
+			children = (
+				0B7C3FE8A96655D11ABAC58A3F1516D4 /* GofAlertController.h */,
+				E4545869DA93C27661D6CA3E78DF9C80 /* GofAlertRotationController.h */,
+				AB1847D53D1734BA338927ED7324E641 /* GofBlock.h */,
+				444CA1C2A1697DD913FA373E33F0C47C /* GofConst.h */,
+				19904C6D279E7EFC9D677BA7D1B27B15 /* GofCountDownUtils.h */,
+				F297F25AA1855B95278F457B3F5E0A2B /* GofVerticalLabel.h */,
+				475607F1BB4AAD67C5F83D828D933E00 /* NSArray+GofOperate.h */,
+				9D6A1DA9A61A68987B445E615809BFD9 /* NSArray+GofSafe.h */,
+				ED3075152A279B2B1CE41AD7C2EA2006 /* NSData+GofCache.h */,
+				7B81E8467C03EE9C8F482C9FACEA3838 /* NSData+GofEncrypt.h */,
+				A702532BDD44C934F2DA05F1D0426CD5 /* NSDate+GofDate.h */,
+				3EF8ED7C21DCA7853729046B99F412D1 /* NSDictionary+GofOperate.h */,
+				B8250B56708B29780EB50FBBD36A47A5 /* NSDictionary+GofSafe.h */,
+				BBE536F0969EB13D3654407D0F81DE05 /* NSFileManager+GofFileManager.h */,
+				64A285B74B3A27DB9B07E54B4BFF0BEF /* NSMutableAttributedString+GofAttributeString.h */,
+				461745398CF8D6DEA220F7CB41F345E9 /* NSObject+GofDevice.h */,
+				F13574B976964E2F2E77E30BE56CA3DE /* NSObject+GofGCD.h */,
+				A855B028A77C235C2323052A5E730D09 /* NSObject+GofObject.h */,
+				0AAACF284BFC461420F174C83227C9EF /* NSObject+GofRuntime.h */,
+				C1DEABB53001C05FD3ED48D2D92B8C7A /* NSObject+GofSize.h */,
+				23AB7675FD0A670D3AA449728497AFFB /* NSObject+GofTopVC.h */,
+				5A438C56468727803C1AB51A5A1F9103 /* NSString+GofEncrypt.h */,
+				13639C48DE86049AF8D4D63547062B72 /* NSString+GofString.h */,
+				ABACDE7D05AA1222E45360959DC36B18 /* NSString+GofTrim.h */,
+				CBEAF78D12DBCF5B835B8AFEF8F6E45E /* NSString+GofVerify.h */,
+				33F365CEB097090061364BA61580C5D6 /* NSTimer+GofTimer.h */,
+				374FDBFE4A22365E360A7403948283C7 /* NSTimer+GofWeakTimer.h */,
+				E47B188B2681DF44A175FFA55932DEED /* NSUserDefaults+GofUserDefaults.h */,
+				63334C5951A6CF17DFA2FBC22B2A9D15 /* UIActionSheet+GofActionSheet.h */,
+				8F4D0C1D73EA221B644790CC1312B167 /* UIAlertView+GofAlertView.h */,
+				C0E36B9FFD5C88DB4E994C0932BFA775 /* UIBarButtonItem+GofBarButton.h */,
+				76BE81F217F67E4B6072D2B9C3010775 /* UIButton+GofButtonMaker.h */,
+				4AE58ED2F3423C3AAC53D8A617AFAD9C /* UIColor+GofColor.h */,
+				47F05634C8A509E6B8E7506E5608BF42 /* UIControl+GofControl.h */,
+				65CCD58B82EB4AF0D0A831C3FCEEC7FF /* UIGestureRecognizer+GofGesture.h */,
+				435FC2AD3B3C5049CC3559D94FE7E0C0 /* UIImage+GofCapture.h */,
+				0048F6F54D4D82E94A9474977DF62670 /* UIImage+GofColor.h */,
+				A0BEBD327A31C7D6B5F1E38DD1053797 /* UIImage+GofCompress.h */,
+				26FB89287BC6438BB37BFD4E13BE5DAC /* UIImageView+GofImageViewMaker.h */,
+				7FF414A747551657124716DE4D460DDC /* UILabel+GofAttributed.h */,
+				94A7509F36EC3E13BCFDC69B0214CA52 /* UILabel+GofLabelMaker.h */,
+				2775C985217195215F2F0BC988EBCEB1 /* UINavigationController+GofFixSpace.h */,
+				E446CC4803F10764182AA7F285DF41D2 /* UITableView+GofTableViewMaker.h */,
+				679B379D55115D13871F2405F8071E90 /* UITextField+GofTextFieldMaker.h */,
+				1837C413C7E3A97A466491CAA2B051C6 /* UITextView+GofTextView.h */,
+				66B829D804EAA395E3AD8F0DB7BAD5F9 /* UITextView+GofTextViewMaker.h */,
+				65B4E66B0B7901A27D5EE1018EE95AC8 /* UIView+GofView.h */,
+				53324229CB0CDF6562C9B17173CC6417 /* UIView+GofViewMaker.h */,
+				10C47AA34DAADB2B378F71C6B649E8B4 /* WKWebView+GofAccessoryHide.h */,
+				986AC96E16243A375AF77F10C6E1A01F /* Frameworks */,
+				1FAA7A537192CBD7CDAE7867D698A96D /* Support Files */,
+			);
+			name = GofKitLib;
+			path = GofKitLib;
+			sourceTree = "<group>";
+		};
+		C52F2674C501563718C6B83B5AB8A0A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD50D07F99468560F1BCA7735ABF8DE /* GofMediator.modulemap */,
+				623306B485540191C52B6022375318AC /* GofMediator-dummy.m */,
+				489B5B810AD84FA4EB5A2262E41D0D3C /* GofMediator-Info.plist */,
+				5C51DA98BC64DB28FE7BA4F1E83D42FF /* GofMediator-prefix.pch */,
+				49204762017023A33BD8F0678A906547 /* GofMediator-umbrella.h */,
+				9DF3E2123F5E309360EBE0DA89FED27F /* GofMediator.debug.xcconfig */,
+				F0494A2C962ABBF8951EC040C18A64EC /* GofMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofMediator";
+			sourceTree = "<group>";
+		};
+		CC6E3092170E17B11AAED33542A5DF8D /* GofMediatorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E98795A5ECA56DED36FB314298101465 /* GofAModuleExtention.swift */,
+				5154A44CC6E42E67E56407D7CDBB8AD1 /* GofBModuleExtension.swift */,
+				FDF4E5C9CBC2F204BC4DCA32065D79F2 /* Support Files */,
+			);
+			name = GofMediatorExtension;
+			path = GofMediatorExtension;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				79707748EA41705CA31E38AC0AE6FDB5 /* Frameworks */,
+				63A0C49992AD46E720C50DD659526C84 /* Pods */,
+				FC59C38C738D35C224876C3147E154DB /* Products */,
+				D1B9EE49066A05BE794B168F43B1F1AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B9EE49066A05BE794B168F43B1F1AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				502D6F6BAE3936F8D4EE4A7FB2BD5D01 /* Pods-GofMediatorOCDemo_Example */,
+				58E52B27C97CDCB980757D1D2CFD7579 /* Pods-GofMediatorOCDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E1542D87641E778EB6AC15F37073E6F0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B612BA580A8BA097059742F4D16BFBF /* Foundation.framework */,
+				05C79EC6028EF799A342663B99365A9A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC394E9B8FB6AAB87175C3D06868E32A /* GofMediator */ = {
+			isa = PBXGroup;
+			children = (
+				0B54CED1AE135171C89FDB97C551F13F /* GofMediator.h */,
+				BA53AD96B213114FCA7501A453A0FE1D /* GofMediator.m */,
+				C52F2674C501563718C6B83B5AB8A0A4 /* Support Files */,
+			);
+			name = GofMediator;
+			path = GofMediator;
+			sourceTree = "<group>";
+		};
+		F120AB991425984C5250E1FAD4474B3B /* GofMediatorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				046DAF29131BD2E703C8EE50978B0430 /* GofMediator+AModule.h */,
+				884F6882FAF1D0ABB215650BA7573FE8 /* GofMediator+AModule.m */,
+				6F02E67C60B53F993856468523FFDB13 /* GofMediator+GofBModule.h */,
+				E5969B6834999D3164CB04016025D41A /* GofMediator+GofBModule.m */,
+				4B129AE24F5BA6AE279BE421C45BB707 /* Support Files */,
+			);
+			name = GofMediatorCategory;
+			path = GofMediatorCategory;
+			sourceTree = "<group>";
+		};
+		FC59C38C738D35C224876C3147E154DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B216332692C1B7ECFFF3531942B6E0D4 /* GofAModule.framework */,
+				3536113059A60D4ED55AE4D7989AF7F2 /* GofBModule.framework */,
+				63BAB61A531EA5DA80E445ED10BBAB89 /* GofMediator.framework */,
+				DFB0BC6029D2663C29B958B6E86F2389 /* GofMediatorCategory.framework */,
+				B975DFAEC7FADF007B30CB9767B334CF /* GofMediatorExtension.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				EE4A43416F416AA2AE99CC6369D1F738 /* Pods_GofMediatorOCDemo_Example.framework */,
+				5269A973DEBDC8204D52B7E9B2B83CB7 /* Pods_GofMediatorOCDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF4E5C9CBC2F204BC4DCA32065D79F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				007478D22F103D47823C25F88B6FA3B0 /* GofMediatorExtension.modulemap */,
+				75D5168FE274EF60C3ABEA0748E4AF88 /* GofMediatorExtension-dummy.m */,
+				6C03BC15D3BBC71276C46BE39EBE8E29 /* GofMediatorExtension-Info.plist */,
+				40593572A3430279D4BCD25933600EDC /* GofMediatorExtension-prefix.pch */,
+				78DDB72C77CEC3D7FDCA5FE04E4C0A70 /* GofMediatorExtension-umbrella.h */,
+				83D2F760D37601460A4AF9FF1430E341 /* GofMediatorExtension.debug.xcconfig */,
+				393518D9190555D840550A431FAEA731 /* GofMediatorExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GofMediatorExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AE9E1E8F17F85C18E669AFDDB17C1CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FF289A5BD9489933C37F51C56F482 /* Pods-GofMediatorOCDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFD4280170279D82FCB27D634335D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F231B92F772419BE211860DA46E49C /* GofMediatorExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BED013A35CC284D5514253EDA6ECCB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E9228FF285C16396B76847B6A9FD6 /* GofAModule-umbrella.h in Headers */,
+				811CE0316F3C9119ABC534047AC370F1 /* GofAViewController.h in Headers */,
+				FBDE79D244AE7F13FF9E3EC5B5A450A3 /* GofTargetA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4A57D75FC78B9FE40145D3345D27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B751F8C00A49388A788759247D49313 /* GofBModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823D002C85F10B8953534102432A86A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F291FF44AE3A5D86EE64CBD30FC518C /* MASCompositeConstraint.h in Headers */,
+				5B6826F1A0B6F3F2DC5ED13AF126EE97 /* MASConstraint+Private.h in Headers */,
+				2D95F3DCAA7438C9F5424D0F56AF31DD /* MASConstraint.h in Headers */,
+				634036D51F0B23AC5731300360C813B2 /* MASConstraintMaker.h in Headers */,
+				342A42436AF31061CE3041A868EA488E /* MASLayoutConstraint.h in Headers */,
+				6F089373DDC0B260340EC380C8C6EFD2 /* Masonry-umbrella.h in Headers */,
+				7FBE33AC849238768FBCBCDD489A7CFF /* Masonry.h in Headers */,
+				1565BCF0BF7F00A132089A733821E027 /* MASUtilities.h in Headers */,
+				90E06A92D5AC70D7825688C87C61C435 /* MASViewAttribute.h in Headers */,
+				E9EAD99114DBD11F4B1609E7F0BB3B17 /* MASViewConstraint.h in Headers */,
+				2E7F9B3189708B62EA40C05D22C89856 /* NSArray+MASAdditions.h in Headers */,
+				2601AC091262BDE14A20CABB10AF6805 /* NSArray+MASShorthandAdditions.h in Headers */,
+				B08E74E12D5F2F18F8739740537AEA74 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				727E5D465A84A4ADB538CF52FE115D1E /* View+MASAdditions.h in Headers */,
+				860AFBCD85CB16BFD10687A4B2E3E6A3 /* View+MASShorthandAdditions.h in Headers */,
+				0E68F3B566DD7CC408FDA3DAA9E9F4F6 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977E7D7CA9014E0FF06FCFDB97236CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3435CE24A33988C7A35099DFD7FD31A /* Pods-GofMediatorOCDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E91804D64EBBADAE1754B9DE0ADB28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44CC5FCD0FD3F7440A5322B2AEC1FB1 /* GofMediator-umbrella.h in Headers */,
+				046499A3A73B36024321328378EA2141 /* GofMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8BC924EB66C84F342E260985EF7957C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A543DC187647E0FB157CAA40D10607B6 /* GofMediator+AModule.h in Headers */,
+				2C8F7A0D5413D16666A144ACF5290170 /* GofMediator+GofBModule.h in Headers */,
+				33DD4B02314E27F2273D6386A53CB5BF /* GofMediatorCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B89E406015C29D340BF5D6769DB8DC1 /* GofBModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC6550047EC3447E1D63FFFFB39524D /* Build configuration list for PBXNativeTarget "GofBModule" */;
+			buildPhases = (
+				6AFB4A57D75FC78B9FE40145D3345D27 /* Headers */,
+				B674254F3C5CBF35AEA4E1B45AE891A4 /* Sources */,
+				4716FCA656BA2EB7B801120623F9A8E7 /* Frameworks */,
+				CDC759205216138363342B110555F471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GofBModule;
+			productName = GofBModule;
+			productReference = 3536113059A60D4ED55AE4D7989AF7F2 /* GofBModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		487733E2C7B9D9C434ABC2FFC3545B5E /* GofMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CF3669C98854C96AA2D3EAF188ADBA /* Build configuration list for PBXNativeTarget "GofMediator" */;
+			buildPhases = (
+				A3E91804D64EBBADAE1754B9DE0ADB28 /* Headers */,
+				D9942C50A138299EE3736E5927142FA2 /* Sources */,
+				DBE4875B7A2FFF0A5F0B56A0C3C855C6 /* Frameworks */,
+				C4B57C9CA8FA9E57DABD4A21979B0D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GofMediator;
+			productName = GofMediator;
+			productReference = 63BAB61A531EA5DA80E445ED10BBAB89 /* GofMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DF9660C6AB7E41FECBA9486D8E35D6 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				823D002C85F10B8953534102432A86A6 /* Headers */,
+				0B043A4CAB42206192A597A01E7C8475 /* Sources */,
+				AB33CC3FDC89FCDA86E5C92D96BADC09 /* Frameworks */,
+				79872E34156AE0B20A1D3340442FBCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75B6E95994F207D28B969EB3FDEF3BB0 /* GofAModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F353D36D0DC5EC365EC4A8802CFDC1 /* Build configuration list for PBXNativeTarget "GofAModule" */;
+			buildPhases = (
+				4BED013A35CC284D5514253EDA6ECCB8 /* Headers */,
+				8B6240F3C9C44F8D483D9B3F8041D23F /* Sources */,
+				656E7F410314E83EB2AF2A8875F59961 /* Frameworks */,
+				232B8B09E0F06492CE35B0258EA934E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53E98DDBB3FDA726F4DA4F6768B8D88 /* PBXTargetDependency */,
+			);
+			name = GofAModule;
+			productName = GofAModule;
+			productReference = B216332692C1B7ECFFF3531942B6E0D4 /* GofAModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		778CF8684631BEA5C6EA2C29B2E7C04D /* Pods-GofMediatorOCDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAAE2CA05AA27DF8289E052B947781A /* Build configuration list for PBXNativeTarget "Pods-GofMediatorOCDemo_Tests" */;
+			buildPhases = (
+				0AE9E1E8F17F85C18E669AFDDB17C1CC /* Headers */,
+				C542F5E3DFA4767128D44B705DF23ABC /* Sources */,
+				F3C2BF2E694022329A95F2D594CFB913 /* Frameworks */,
+				29E20F8221988DD160D160B514FA6CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17794ACD0B47F5362F12BE38B26EFDF /* PBXTargetDependency */,
+			);
+			name = "Pods-GofMediatorOCDemo_Tests";
+			productName = "Pods-GofMediatorOCDemo_Tests";
+			productReference = 5269A973DEBDC8204D52B7E9B2B83CB7 /* Pods_GofMediatorOCDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		887F67666F5D4B7886D5D4457AB66367 /* Pods-GofMediatorOCDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6161B6B54BE901A8D5293E20C037D85F /* Build configuration list for PBXNativeTarget "Pods-GofMediatorOCDemo_Example" */;
+			buildPhases = (
+				977E7D7CA9014E0FF06FCFDB97236CE7 /* Headers */,
+				92B0DA7AB803DBB424A8837B5DADFB9E /* Sources */,
+				08FC03B88CEF026F45266B16B1BB93D4 /* Frameworks */,
+				8C3F16EEA3B9FC25BE7D5965FB45645F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35F7397821BC706CB596CE5779E7469 /* PBXTargetDependency */,
+				34A5DA86E11F694F52876F1198563D42 /* PBXTargetDependency */,
+				96B59D7754B953FD542CACE83A801306 /* PBXTargetDependency */,
+				6299CE170FC3D5A89FFF67B24C7D7FF5 /* PBXTargetDependency */,
+				7CF590E6F1EA8AA566E59DA801CFA9B1 /* PBXTargetDependency */,
+				9F56ED9839AADCB4574361EF154315AB /* PBXTargetDependency */,
+				3AA1CADD930ABD50E2976FF2FCA4CB3A /* PBXTargetDependency */,
+			);
+			name = "Pods-GofMediatorOCDemo_Example";
+			productName = "Pods-GofMediatorOCDemo_Example";
+			productReference = EE4A43416F416AA2AE99CC6369D1F738 /* Pods_GofMediatorOCDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D68A79EB98E57090250FCDF0A2BA1EA7 /* GofMediatorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996C38E7E6BFC3434EAB1E692E6D9A3A /* Build configuration list for PBXNativeTarget "GofMediatorExtension" */;
+			buildPhases = (
+				32DFD4280170279D82FCB27D634335D5 /* Headers */,
+				8F0236EE06A24F79BC5BEC362A554F90 /* Sources */,
+				33DD310F855F3E96A4E890B2F4E76EC5 /* Frameworks */,
+				FAEF45474891FDF0B2A4AC176DA16CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D6ED2E258C90EE8B006980CFD7ADE32 /* PBXTargetDependency */,
+			);
+			name = GofMediatorExtension;
+			productName = GofMediatorExtension;
+			productReference = B975DFAEC7FADF007B30CB9767B334CF /* GofMediatorExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC226E094EB243991256BC0A9FE6AA93 /* GofMediatorCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4C558A94631883DEDF74FB71B01C9B /* Build configuration list for PBXNativeTarget "GofMediatorCategory" */;
+			buildPhases = (
+				B8BC924EB66C84F342E260985EF7957C /* Headers */,
+				1096370978142AA75A832D40B680BB96 /* Sources */,
+				063DB42897ED0B3DA937FF4717A31EB4 /* Frameworks */,
+				EF6D334E86EBB1DC0750B849AE1D1E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBEDF9B01E7E39E3CD1605D7138CEB7 /* PBXTargetDependency */,
+			);
+			name = GofMediatorCategory;
+			productName = GofMediatorCategory;
+			productReference = DFB0BC6029D2663C29B958B6E86F2389 /* GofMediatorCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FC59C38C738D35C224876C3147E154DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75B6E95994F207D28B969EB3FDEF3BB0 /* GofAModule */,
+				0B89E406015C29D340BF5D6769DB8DC1 /* GofBModule */,
+				AAA4117AFF3CCB6F64122DC670746588 /* GofKitLib */,
+				487733E2C7B9D9C434ABC2FFC3545B5E /* GofMediator */,
+				FC226E094EB243991256BC0A9FE6AA93 /* GofMediatorCategory */,
+				D68A79EB98E57090250FCDF0A2BA1EA7 /* GofMediatorExtension */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				887F67666F5D4B7886D5D4457AB66367 /* Pods-GofMediatorOCDemo_Example */,
+				778CF8684631BEA5C6EA2C29B2E7C04D /* Pods-GofMediatorOCDemo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232B8B09E0F06492CE35B0258EA934E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E20F8221988DD160D160B514FA6CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79872E34156AE0B20A1D3340442FBCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3F16EEA3B9FC25BE7D5965FB45645F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B57C9CA8FA9E57DABD4A21979B0D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC759205216138363342B110555F471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6D334E86EBB1DC0750B849AE1D1E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEF45474891FDF0B2A4AC176DA16CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B043A4CAB42206192A597A01E7C8475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E937FA75166E27BF149A0CE6D8C1BCB /* MASCompositeConstraint.m in Sources */,
+				667D112E7182858E69D9B1152FD8F8E7 /* MASConstraint.m in Sources */,
+				4A0661052D6C6FB8DE11FF40A102C6A5 /* MASConstraintMaker.m in Sources */,
+				6713487E5CA09A8E2D5019ACDEAF80DF /* MASLayoutConstraint.m in Sources */,
+				3408149AE3161E82342D00D156EE5F10 /* Masonry-dummy.m in Sources */,
+				B7E7B8001DE7CDD4357816642D8B01E0 /* MASViewAttribute.m in Sources */,
+				6CE7EE756A0E5F166E2587EFB16C5848 /* MASViewConstraint.m in Sources */,
+				238D7C3554CEEEECDF3823098F5FBD2E /* NSArray+MASAdditions.m in Sources */,
+				5FC036FE69007DD6C891BAF37E3A9BFF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5F8404DAEEAC0EE732C8EC45DD2D2906 /* View+MASAdditions.m in Sources */,
+				39DB43CE53FC86106FEBEC8BE1579E18 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096370978142AA75A832D40B680BB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5316C056E2FD86892F4B1FA4346ED2F /* GofMediator+AModule.m in Sources */,
+				A6B2C5EEFDA5CB1A1DF94F6A15B2E692 /* GofMediator+GofBModule.m in Sources */,
+				CB3F718F6F9C95AAE03EB7934DB75FB8 /* GofMediatorCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6240F3C9C44F8D483D9B3F8041D23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ABD683CEF4E246467B2F8009298DCC /* GofAModule-dummy.m in Sources */,
+				F4C555CA451CEDCF034B734614CE3FDD /* GofAViewController.m in Sources */,
+				C67AC5AC0557DE30A8D9385548478761 /* GofTargetA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0236EE06A24F79BC5BEC362A554F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2AB7A4515ED3D3EEC3CC5A4815EA65 /* GofAModuleExtention.swift in Sources */,
+				78130999DA86C3CA0FFDB7EAE577992C /* GofBModuleExtension.swift in Sources */,
+				7BF3DF22687DEA8A1EB3E02A34489265 /* GofMediatorExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B0DA7AB803DBB424A8837B5DADFB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3007E678248A9F23EEAC916A109EE5F9 /* Pods-GofMediatorOCDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B674254F3C5CBF35AEA4E1B45AE891A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C734F991F8E156A10303A931E9B33ED /* GofBModule-dummy.m in Sources */,
+				A0A9D53ADB4CEA0E6FCE8249EA920D58 /* GofBViewController.swift in Sources */,
+				20ED921545DC5CB818F141458FA4C5E2 /* GofTargetB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542F5E3DFA4767128D44B705DF23ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8C9010C148F3B9F7F65C2ACDCBBB8A /* Pods-GofMediatorOCDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9942C50A138299EE3736E5927142FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154CBB12E88278FFDC8DB81EE53E317 /* GofMediator-dummy.m in Sources */,
+				6C66233ACEC7CF2A498304C4AAB2D5FF /* GofMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D6ED2E258C90EE8B006980CFD7ADE32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofMediator;
+			target = 487733E2C7B9D9C434ABC2FFC3545B5E /* GofMediator */;
+			targetProxy = C3D3A666036186A140EEE556BAC3F489 /* PBXContainerItemProxy */;
+		};
+		34A5DA86E11F694F52876F1198563D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofBModule;
+			target = 0B89E406015C29D340BF5D6769DB8DC1 /* GofBModule */;
+			targetProxy = E324E141E8BC1AA040BBC355CD3DE5A4 /* PBXContainerItemProxy */;
+		};
+		3AA1CADD930ABD50E2976FF2FCA4CB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 822EC3712AA7D092076F0801882A24EB /* PBXContainerItemProxy */;
+		};
+		6299CE170FC3D5A89FFF67B24C7D7FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofMediator;
+			target = 487733E2C7B9D9C434ABC2FFC3545B5E /* GofMediator */;
+			targetProxy = F8F1B98B94BCB9DB27A19508E9410298 /* PBXContainerItemProxy */;
+		};
+		7CF590E6F1EA8AA566E59DA801CFA9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofMediatorCategory;
+			target = FC226E094EB243991256BC0A9FE6AA93 /* GofMediatorCategory */;
+			targetProxy = 477F550BC9E6C3F709F199A2D7479DA0 /* PBXContainerItemProxy */;
+		};
+		96B59D7754B953FD542CACE83A801306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofKitLib;
+			target = AAA4117AFF3CCB6F64122DC670746588 /* GofKitLib */;
+			targetProxy = 3C5D550E556BE6035A3453D96873AC0B /* PBXContainerItemProxy */;
+		};
+		9F56ED9839AADCB4574361EF154315AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofMediatorExtension;
+			target = D68A79EB98E57090250FCDF0A2BA1EA7 /* GofMediatorExtension */;
+			targetProxy = D015CEB98498DB512BDFCE15697A59DB /* PBXContainerItemProxy */;
+		};
+		C35F7397821BC706CB596CE5779E7469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofAModule;
+			target = 75B6E95994F207D28B969EB3FDEF3BB0 /* GofAModule */;
+			targetProxy = 7CC01E66659227970DD35DE689EA102B /* PBXContainerItemProxy */;
+		};
+		F17794ACD0B47F5362F12BE38B26EFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GofMediatorOCDemo_Example";
+			target = 887F67666F5D4B7886D5D4457AB66367 /* Pods-GofMediatorOCDemo_Example */;
+			targetProxy = FAE95E94DBD327744451AA562EF33623 /* PBXContainerItemProxy */;
+		};
+		F53E98DDBB3FDA726F4DA4F6768B8D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofKitLib;
+			target = AAA4117AFF3CCB6F64122DC670746588 /* GofKitLib */;
+			targetProxy = F79E525666B15C47A3E028B6A3D781F6 /* PBXContainerItemProxy */;
+		};
+		F65F3417389D893DCCF770F08BBABF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 2DD9ABBF18AA99EE53058663B06CC445 /* PBXContainerItemProxy */;
+		};
+		FEBEDF9B01E7E39E3CD1605D7138CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GofMediator;
+			target = 487733E2C7B9D9C434ABC2FFC3545B5E /* GofMediator */;
+			targetProxy = DE1027C28DBF1D74ADB96C2C83321ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127C92EB9BE02945DB8590E9A9A0B0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393518D9190555D840550A431FAEA731 /* GofMediatorExtension.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediatorExtension/GofMediatorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediatorExtension/GofMediatorExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediatorExtension/GofMediatorExtension.modulemap";
+				PRODUCT_MODULE_NAME = GofMediatorExtension;
+				PRODUCT_NAME = GofMediatorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BBC9414F73318AE2D338C63A0E36D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5393538C5B4F656D3912F5EB966173A4 /* Pods-GofMediatorOCDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Tests/Pods-GofMediatorOCDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Tests/Pods-GofMediatorOCDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		224C961BB6D3D8F5FDCE9AB317104621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7702707936A4C9C9C67EDE1736859E03 /* GofBModule.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofBModule/GofBModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofBModule/GofBModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofBModule/GofBModule.modulemap";
+				PRODUCT_MODULE_NAME = GofBModule;
+				PRODUCT_NAME = GofBModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25CD47EF9C10FC827454042336DD6C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5642556FF8E524EE60B47759416DFE7 /* GofKitLib.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3192DDBBE7CC9F3B04858FEEAAD5075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D473131F449F238C4C8342C0F13A8C41 /* GofKitLib.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433794003748001C10B58F0B14F0D2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4E5AFC1A7D25DB3A1E3C4BA967C51C /* GofAModule.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofAModule/GofAModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofAModule/GofAModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GofAModule/GofAModule.modulemap";
+				PRODUCT_MODULE_NAME = GofAModule;
+				PRODUCT_NAME = GofAModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47E5CC73BA8758B9B7C92CD975222BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064EB0C80528D1795F9E054210BFFF27 /* GofBModule.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofBModule/GofBModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofBModule/GofBModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofBModule/GofBModule.modulemap";
+				PRODUCT_MODULE_NAME = GofBModule;
+				PRODUCT_NAME = GofBModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D147D9A658F8D8DBFF0D4888499694F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ECB3057B68927E26C885679B8A498C /* Pods-GofMediatorOCDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Tests/Pods-GofMediatorOCDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Tests/Pods-GofMediatorOCDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53DA45AC0B147DC26A40A0C9B577039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53DF2BB8E0DABB950D11DFE703D96E1 /* GofMediatorCategory.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediatorCategory/GofMediatorCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediatorCategory/GofMediatorCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediatorCategory/GofMediatorCategory.modulemap";
+				PRODUCT_MODULE_NAME = GofMediatorCategory;
+				PRODUCT_NAME = GofMediatorCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57BD25CBD4B91A6F42B87FE141D7ED79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4C9E0F73A5925F0987473FCC07F37F /* GofAModule.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofAModule/GofAModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofAModule/GofAModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GofAModule/GofAModule.modulemap";
+				PRODUCT_MODULE_NAME = GofAModule;
+				PRODUCT_NAME = GofAModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		582C08136D9638EC8DBC584268EBCCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7EDE1E3551058EC82F8AA5CBEDE142 /* GofMediatorCategory.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediatorCategory/GofMediatorCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediatorCategory/GofMediatorCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediatorCategory/GofMediatorCategory.modulemap";
+				PRODUCT_MODULE_NAME = GofMediatorCategory;
+				PRODUCT_NAME = GofMediatorCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B51F937A7FF6409916A6FA06B11410E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0494A2C962ABBF8951EC040C18A64EC /* GofMediator.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediator/GofMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediator/GofMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediator/GofMediator.modulemap";
+				PRODUCT_MODULE_NAME = GofMediator;
+				PRODUCT_NAME = GofMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A83E524AAB374E4CB2E8128DCBB21F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B864B014F4CA1808BD214719405448B /* Pods-GofMediatorOCDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Example/Pods-GofMediatorOCDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Example/Pods-GofMediatorOCDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CCA5742986D4135DEDC105E5CEFA8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF3E2123F5E309360EBE0DA89FED27F /* GofMediator.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediator/GofMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediator/GofMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediator/GofMediator.modulemap";
+				PRODUCT_MODULE_NAME = GofMediator;
+				PRODUCT_NAME = GofMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A80F31491C9DADB0F8B6DB7459BE9496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9C7698B38D09B8EB380EE205AF889B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD68034C6DFCA3AA34933E33C953D4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DAC6FCBE37886B3CC59E97A784B5E8 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7EA422BF750C31235D9336E5039C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C253AEFF757F9C4EB27891D2AD90FB77 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBB4FFFDF0FF95A24549018151640839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D2F760D37601460A4AF9FF1430E341 /* GofMediatorExtension.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GofMediatorExtension/GofMediatorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GofMediatorExtension/GofMediatorExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GofMediatorExtension/GofMediatorExtension.modulemap";
+				PRODUCT_MODULE_NAME = GofMediatorExtension;
+				PRODUCT_NAME = GofMediatorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E887790537524497C3A2D5CC4F959B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EAC6DEF0A657200704131ABE12CC5C /* Pods-GofMediatorOCDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Example/Pods-GofMediatorOCDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GofMediatorOCDemo_Example/Pods-GofMediatorOCDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F353D36D0DC5EC365EC4A8802CFDC1 /* Build configuration list for PBXNativeTarget "GofAModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433794003748001C10B58F0B14F0D2FC /* Debug */,
+				57BD25CBD4B91A6F42B87FE141D7ED79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353AE8735F7E89A017ADEBFE4814BA10 /* Build configuration list for PBXAggregateTarget "GofKitLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CD47EF9C10FC827454042336DD6C97 /* Debug */,
+				3192DDBBE7CC9F3B04858FEEAAD5075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C7698B38D09B8EB380EE205AF889B0 /* Debug */,
+				A80F31491C9DADB0F8B6DB7459BE9496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DF9660C6AB7E41FECBA9486D8E35D6 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD68034C6DFCA3AA34933E33C953D4A8 /* Debug */,
+				C7EA422BF750C31235D9336E5039C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6161B6B54BE901A8D5293E20C037D85F /* Build configuration list for PBXNativeTarget "Pods-GofMediatorOCDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E887790537524497C3A2D5CC4F959B22 /* Debug */,
+				6A83E524AAB374E4CB2E8128DCBB21F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996C38E7E6BFC3434EAB1E692E6D9A3A /* Build configuration list for PBXNativeTarget "GofMediatorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB4FFFDF0FF95A24549018151640839 /* Debug */,
+				127C92EB9BE02945DB8590E9A9A0B0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC6550047EC3447E1D63FFFFB39524D /* Build configuration list for PBXNativeTarget "GofBModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E5CC73BA8758B9B7C92CD975222BF7 /* Debug */,
+				224C961BB6D3D8F5FDCE9AB317104621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CF3669C98854C96AA2D3EAF188ADBA /* Build configuration list for PBXNativeTarget "GofMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCA5742986D4135DEDC105E5CEFA8D4 /* Debug */,
+				5B51F937A7FF6409916A6FA06B11410E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4C558A94631883DEDF74FB71B01C9B /* Build configuration list for PBXNativeTarget "GofMediatorCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DA45AC0B147DC26A40A0C9B577039D /* Debug */,
+				582C08136D9638EC8DBC584268EBCCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAAE2CA05AA27DF8289E052B947781A /* Build configuration list for PBXNativeTarget "Pods-GofMediatorOCDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBC9414F73318AE2D338C63A0E36D0A /* Debug */,
+				4D147D9A658F8D8DBFF0D4888499694F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

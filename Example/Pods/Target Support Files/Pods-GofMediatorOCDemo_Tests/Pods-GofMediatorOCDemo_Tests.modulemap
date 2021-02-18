@@ -1,0 +1,6 @@
+framework module Pods_GofMediatorOCDemo_Tests {
+  umbrella header "Pods-GofMediatorOCDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

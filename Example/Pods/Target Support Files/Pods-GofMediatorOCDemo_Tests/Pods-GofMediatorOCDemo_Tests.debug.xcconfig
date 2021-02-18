@@ -1,0 +1,10 @@
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GofAModule" "${PODS_CONFIGURATION_BUILD_DIR}/GofBModule" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediator" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediatorCategory" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediatorExtension" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_ROOT}/GofKitLib"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GofAModule/GofAModule.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GofBModule/GofBModule.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediator/GofMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediatorCategory/GofMediatorCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GofMediatorExtension/GofMediatorExtension.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GofKitLib"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "GofBModule" -framework "GofMediator" -framework "GofMediatorCategory" -framework "GofMediatorExtension" -framework "Masonry" -framework "UIKit" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

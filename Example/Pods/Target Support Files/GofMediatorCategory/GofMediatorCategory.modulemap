@@ -1,0 +1,6 @@
+framework module GofMediatorCategory {
+  umbrella header "GofMediatorCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
